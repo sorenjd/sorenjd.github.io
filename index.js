@@ -1,4 +1,4 @@
 function helloWorld() {
-    document.getElementById('handle').textContent ='D³SYMPL'
+    document.getElementById('handle').textContent ='D3SYMPL'
 }
 helloWorld();
