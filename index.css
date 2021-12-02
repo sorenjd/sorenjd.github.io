@@ -2,8 +2,9 @@
 * {
     margin: 0.2em;
     padding: 0.2em;
-    /*color: blue;*/
+    color: rgb(255, 255, 255);
     background-color: rgb(19, 19, 19);
+    
 }
 /* h1 span {color:blue; font-weight:normal;} /* schachtelung */
 /* body {font: 1em Verdana; width:50%;} /*tag*/
