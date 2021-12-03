@@ -1,5 +1,5 @@
 function helloWorld() {
     document.getElementById('handle').textContent =
-    'D3-SYMPL'
+    'D³SYMPL'
 }
 helloWorld();
