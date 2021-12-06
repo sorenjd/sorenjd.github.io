@@ -3,4 +3,4 @@ function helloWorld() {
     'D³SYMPL'
 }
 helloWorld();
-window.alert("Cookie");
+window.alert("Cookie1");
