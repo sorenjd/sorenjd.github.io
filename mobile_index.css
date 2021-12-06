@@ -1,6 +1,13 @@
 @import "index.css";
 
 @media only screen and (max-width: 600px){
+    p { font-size: .8em }
+    header, footer, .centerIMG {
+        float: none;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 600px) and (max-width: 5000px){
     header, footer, .centerIMG {
         float: none;
         width: auto;
