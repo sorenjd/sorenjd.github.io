@@ -18,6 +18,11 @@ header p {
     /*width: 50%;*/
 }
 
+.BigButton {
+    background-color: aqua;
+    /* width: 40%; */
+}
+
 /* body {font: 1em Verdana; width:50%;} /*tag*/
 /* h1 {font-size:1.5em;} /*tag*/
 .centerClass {text-align: center;} /*class attribut*/
