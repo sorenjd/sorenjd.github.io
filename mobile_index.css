@@ -1,12 +1,9 @@
 @import "index.css";
 
-@media only screen and (min-width: 100px) and (max-width: 1500px){
-    p { font-size: .8em }
+@media only screen and (max-width: 1500px){
+    .centerClass { font-size: 3em }
     * {
         float: none;
         width: 100%;
     }
-}
-@media only screen and (min-width: 1501px) and (max-width: 5000px){
-    * {color: rgb(88, 45, 45);}
 }
