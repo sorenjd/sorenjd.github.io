@@ -21,6 +21,11 @@ header p {
 .BigButton {
     background-color: aqua;
     width: 40%;
+    display: inline-block;
+    /*max-width: 30em;*/
+    padding: 2%;
+    margin: 1%;
+    border: .1ex solid black;
 }
 
 /* body {font: 1em Verdana; width:50%;} /*tag*/
