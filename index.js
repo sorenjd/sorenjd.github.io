@@ -18,7 +18,7 @@ function checkIncoming(){
 }
 
 function process(recvData) {
-    document.getElementById('datafield').textContent = recvData.data;
+    document.getElementById('datafield').textContent = recvData;
 }
 
 function setTitle() {
