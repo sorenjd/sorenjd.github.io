@@ -39,3 +39,25 @@ Github Pages Project
     /*oder auch background-repeat:repeat-x; (oder repeat-y oder repeat)*/
     .content3 {background-color:transparent} /*macht nur element transparent*/
     .content4 {opacity:0.5;} /*element mit rahmen und hintergrund transparent*/
+
+           <form action="/cgi-bin/Echo.pl" id="form_id" method="get" accept-charset="UTF-8">
+            
+            <input type="text" name="zuname" value="Muster" size="30" maxlength="30" placeholder="Ihre Eingabe"/>
+                        
+            <fieldset id="radiobuttonabschnitt" tabindex="1">
+            <legend> Radiobuttons gruppiert durch namen: </legend>
+            <input type="radio" name="group" value="1" />
+            <input type="radio" name="group" value="2" />
+            <input type="radio" name="group" value="3" checked />
+            </fieldset>
+
+            <input type="checkbox" name="zutat" value="salami" />
+
+            <input type="button" name="Start" value="Startseite" onclick="self.location.href='http://www.xyz.de/'" />
+            <input type="hidden" name="sessionID" value="4711" />
+            <input type="submit"/>
+            <label>Zuname:
+            <input type="text" id="nachname" name="Zuname"/>
+            </label>
+            <label for="nachname"> Nachname hier: </label>   
+            </form>
